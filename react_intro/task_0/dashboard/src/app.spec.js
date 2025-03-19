@@ -20,3 +20,4 @@ test('renders an image element', () => {
     const imgElement = screen.getByRole('img');
     expect(imgElement).toBeInTheDocument();
   });
+
