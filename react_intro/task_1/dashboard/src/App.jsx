@@ -1,7 +1,7 @@
 import React from "react";
 import HolbertonLogo from "./HolbertonLogo1.png";
 import './App.css';
-import { getFullYear, getFooterCopy } from './utils';
+import { getCurrentYear, getFooterCopy } from './utils';
 
 function App() {
   return (
@@ -14,7 +14,7 @@ function App() {
         <p>Login to access the full dashboard</p>
       </div>
       <div className="App-footer">
-        <p>Copyright {getFullYear()} - {getFooterCopy(true)}</p>
+        <p>Copyright {getCurrentYear()} - {getFooterCopy(true)}</p>
       </div>
     </>
   );

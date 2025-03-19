@@ -1,4 +1,4 @@
-export function getFullYear() {
+export function getCurrentYear() {
     let date = new Date()
     return date.getFullYear()
 }
