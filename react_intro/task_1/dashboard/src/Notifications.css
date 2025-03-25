@@ -1,4 +1,10 @@
-.Notifications {
-    border: 3px solid #e14852;;
-    padding: 1em;
-}
+/* task_1/dashboard/src/Notifications.css */
+.notifications {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+  }
+

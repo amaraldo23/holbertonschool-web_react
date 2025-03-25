@@ -1,20 +1,19 @@
+// task_1/dashboard/src/App.jsx
 import React from "react";
-import HolbertonLogo from "./HolbertonLogo1.png";
-import './App.css';
-import { getCurrentYear, getFooterCopy } from './utils';
+import { getCurrentYear, getFooterCopy } from "./utils";
+import Notifications from "./Notifications";
+import "./App.css";
 
 function App() {
   return (
     <>
-      <div className="App-header">
-        <img src={HolbertonLogo} alt="Holberton Logo" />
-        <h1>School dashboard</h1>
+      <div className="root-notifications">
+        <Notifications />
       </div>
-      <div className="App-body">
-        <p>Login to access the full dashboard</p>
-      </div>
-      <div className="App-footer">
-        <p>Copyright {getCurrentYear()} - {getFooterCopy(true)}</p>
+      <div className="App">
+        <div className="App-footer">
+          <p>Copyright {getCurrentYear()} - {getFooterCopy(true)}</p>
+        </div>
       </div>
     </>
   );
